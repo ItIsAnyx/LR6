@@ -6,13 +6,14 @@
 Для клонирования репозитория необходимо сделать форк, не забыв убрать галочку с пункта "Copy the `master` branch only"
 
 После в git bash необходимо перейти в папку, где будет создан локальный репозиторий и выполнить следующую команду:
+
 `$ git clone https://github.com/ItIsAnyx/LR6`
 
 ## 2. Добавление нового файла
 *Скриншот с добавлением нового файла*
 
 ## 3 Добавление изменений в локальный репозиторий
-'$ git pull'
+`$ git pull`
 
 ## 4 Получение истории операций для каждой из веток
 `$ git log --all --oneline`
@@ -26,7 +27,7 @@
 
 ## 6 Слияние веток и решение конфликта
 Для слияния веток необходимо использовать следующую команду:
-'$ git merge origin/branch1'
+`$ git merge origin/branch1`
 
 Однако у нас появляется конфликт, который не позволяет в данный момент выполнить слияние:
 *Скриншот конфликта*
@@ -35,23 +36,23 @@
 *Скриншот изменения файла mergefile.txt*
 
 После чего снова выполняем команду
-'$ git merge origin/branch1'
+`$ git merge origin/branch1`
 
 ## 6 Удаление побочной ветки
-'$ git branch -d branch1'
+`$ git branch -d branch1`
 
 ## 7 Откат коммита
-'$ git reset --hard cbbed4b'
-Для обновления удалённого репозитория к `git push` необходимо добавить флаг '--force'
-'$ git push --force'
+`$ git reset --hard cbbed4b`
+Для обновления удалённого репозитория к `git push` необходимо добавить флаг `--force`
+`$ git push --force`
 
 ## 8 Создание побочной ветки
-'$ git checkout -b report'
+`$ git checkout -b report`
 Отправляем изменения, привязывая новую ветку к удалённому репозиторию
-'$ git push -u origin report'
+`$ git push -u origin report`
 
 ## 9 Получение истории операций в форматированном виде
-'$ git log --pretty=format:"%h %ad %an %s" --date=short'
+`$ git log --pretty=format:"%h %ad %an %s" --date=short`
 **История операций:**
 * cbbed4b 2024-11-15 ItIsAnyx Изменён interesting_file.txt
 * 0bdfb6d 2024-11-15 ItIsAnyx Попытка слияния веток
