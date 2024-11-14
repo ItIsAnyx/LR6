@@ -81,6 +81,17 @@
 `$ git log --pretty=format:"%h %ad %an %s" --date=short`
 
 **История операций:**
+* 73c92f5 2024-11-15 ItIsAnyx Исправление мелких недочётов README.md
+* 7c339dd 2024-11-15 ItIsAnyx Финальные штрихи в README.md
+* 6f750fd 2024-11-15 ItIsAnyx Обновление README.md
+* b520b0c 2024-11-15 ItIsAnyx Изменение README.md
+* e3ec787 2024-11-15 ItIsAnyx Добавление изображений в README.md
+* 8808f5d 2024-11-15 ItIsAnyx Изменение README.md
+* 60f04af 2024-11-15 ItIsAnyx Изменены названия изображений
+* ffab324 2024-11-15 ItIsAnyx Добавлены скрины для отчёта
+* c2ceecd 2024-11-15 ItIsAnyx Обновление README.md
+* 3b80524 2024-11-15 ItIsAnyx Обновление README.md
+* 1145103 2024-11-15 ItIsAnyx Добавление отчёта в README.md
 * cbbed4b 2024-11-15 ItIsAnyx Изменён interesting_file.txt
 * 0bdfb6d 2024-11-15 ItIsAnyx Попытка слияния веток
 * 0553bcf 2024-11-14 ItIsAnyx Создан файл interesting_file.txt
